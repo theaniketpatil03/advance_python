@@ -1,3 +1,9 @@
+'''
+Queues are commonly used in scenarios such as task scheduling, 
+handling requests in a web server, and managing resources in a computer system 
+where tasks or processes need to be executed in a specific order. 
+They are essential in ensuring fairness and order in the processing of elements.
+'''
 # queue - means first in first out
 from queue import Queue
 # Creation:
@@ -26,9 +32,6 @@ is_empty = my_queue.empty()
 print("Is empty:", is_empty)
 
 
-'''
-Queues are commonly used in scenarios such as task scheduling, handling requests in a web server, and managing resources in a computer system where tasks or processes need to be executed in a specific order. They are essential in ensuring fairness and order in the processing of elements.
-'''
 
 
 # Task Scheduling with queu 
