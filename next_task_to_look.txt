@@ -17,3 +17,5 @@
    - The `queue` module in Python provides different types of queues, such as `Queue`, `LifoQueue` (Last In, First Out), and `PriorityQueue`. Each type is designed for specific use cases, allowing you to choose the one that best fits your requirements.
 
 In summary, while a simple list and a `for` loop may suffice for basic task scheduling, using a queue becomes particularly advantageous in scenarios involving concurrency, synchronization, and coordination of tasks in a multi-threaded or distributed environment. The `queue` module provides a robust and thread-safe implementation that simplifies these aspects of task management.
+
+*** find out if there is any similarly concepts in thread loop executor 
