@@ -29,3 +29,26 @@ node2.next = node3
 
 new_node = Node(0)
 new_node.next = node1
+
+print(new_node.data)
+print(new_node.next.data)
+
+# - Insertion at the end
+
+new_node = Node(4)
+node3.next = new_node
+
+print(new_node.data)
+print(node3.next.data)
+
+
+# - Deletion of node ( add next node )
+node1.next = node2.next
+print(node1.next.data)
+
+#  - Traversal
+print('Traversal')
+current_node = node1
+while current_node is not None:
+    print(current_node.data)
+    current_node = current_node.next
