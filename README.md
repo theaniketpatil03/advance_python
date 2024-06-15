@@ -1,4 +1,5 @@
 # advance_python
 
-## start with basic first
-1 - Data structure - basic -> data_structure
+## Learning Flow
+1 - Input Output
+1 - Data types 
