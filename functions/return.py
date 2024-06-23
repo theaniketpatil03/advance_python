@@ -12,6 +12,7 @@ print(t.x)
 
 
 def lun():
+    print('lun')
     return 1, 2, 3, 4, [5, 6]
 print(lun())
 
@@ -25,3 +26,9 @@ def create_adder(x):
 add_15 = create_adder(10)
 print(add_15(15))
 
+
+def check():
+    print('check')
+    return lun()
+
+check()

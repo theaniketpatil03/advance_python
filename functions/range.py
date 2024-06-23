@@ -19,3 +19,7 @@ fruits = ["apple", "banana", "cherry", "date"]
 
 for i in range(len(fruits)):
 	print(fruits[i])
+
+
+for i in range(1, 5, 2):
+	print(i)

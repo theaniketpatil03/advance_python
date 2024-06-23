@@ -8,7 +8,7 @@
 5 - conditional statements
 6 - functions
 7 - oops
-8 - exception handling
+8 - exception handling inbuild and custom
 9 - inbuild functions
 10 - asyncronous
 11 - multithreading / multitasking

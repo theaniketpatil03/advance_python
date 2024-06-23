@@ -12,6 +12,27 @@ match parameter:
         # default code block
 '''
 
+'''
+use match when 
+
+Complex Data Structures
+Destructuring - 
+point = (3, 4)
+
+match point:
+    case (0, 0):
+        print('Origin')
+    case (x, y):
+        print(f'Point is at ({x}, {y})')
+
+        
+
+when want to extend conditoin 
+
+becasue if els can get bigger
+
+'''
+
 # simple match case statement
 def runMatch():
     num = int(input("Enter a number between 1 and 3: "))
